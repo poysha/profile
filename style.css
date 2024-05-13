@@ -1,0 +1,99 @@
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center 1 */
+  align-items: center; /* center 2 */
+  height: 100vh; /* height */
+}
+
+/* Body */
+body {
+  background-color: #39393A; /* Background color */
+  font-family: 'Roboto', sans-serif; /* Font */
+  color: #080808; /* Font color for body */
+  font-size: 20px; /* Text size in pixels */
+  line-height: 1.6;
+}
+
+/* Card styles */
+.card {
+  background-color: #565656; /* background */
+  border: 1px solid #444444; /* border */
+  border-radius: 5px; /* borders */
+  padding: 20px; /* padding */
+  width: 700px; /* width of the card */
+  margin-bottom: 30px; /* bottom margin */
+}
+
+.card.profile {
+  height: 413px; /* height of the profile card */
+}
+
+.card.social-media {
+  height: 204px; /* height of the social media card */
+}
+
+/* Profile styles */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.profile h1 {
+  margin-top: 10px; /* h1 up */
+}
+
+.profile h2 {
+  margin-bottom: 10px; /* h2 down */
+}
+
+.profile p {
+  margin: 0; /* default margins */
+}
+
+/* Social Media styles */
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.social-media .social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile Pic */
+.profile-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  border: 2px solid #E7E749; /* Border color */
+  width: 200px; /* width of the image in pixels */
+  height: 200px; /* height of the image in pixels */
+  object-fit: cover; /* aspect ratio */
+}
+
+/* Social Media Icons */
+.social-media-icons a {
+  display: inline-block;
+  font-size: 37px; /* Icon size in pixels */
+  color: #E7E749; /* Default icon color */
+  margin-right: 20px; /* space between the icons */
+  padding: 12px; /* padding */
+  transition: color 0.3s; /* Smooth transition effect for color change */
+}
+
+.social-media-icons a:hover {
+  color: #090902; /* Brighter yellow color on hover */
+}
